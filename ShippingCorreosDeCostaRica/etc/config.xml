@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+<default>
+<carriers>
+<imagineer_shippingcorreosdecostarica>
+<active>1</active>
+<sort_order>15</sort_order>
+<sallowspecific>0</sallowspecific>
+<price>0</price>
+<express_max_weight>1</express_max_weight>
+<model>Imagineer\ShippingCorreosDeCostaRica\Model\Carrier\Customshipping</model>
+<name>Custom Shipping</name>
+<title>Shipping Correos de Costa Rica</title>
+<specificerrmsg>This shipping method is not available. To use this shipping method, please contact us.</specificerrmsg>
+</imagineer_shippingcorreosdecostarica>
+</carriers>
+</default>
+</config>
